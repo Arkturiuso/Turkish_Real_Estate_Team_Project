@@ -1,0 +1,9 @@
+*.csv
+*.zip
+*.pkl
+*.h5
+
+!app/models/best_model.pkl      # если он меньше 100 МБ
+!app/models/feature_columns.pkl
+
+app/models/
