@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import altair as alt
 
-from app.src.predictor import get_predictor
+from src.predictor import get_predictor
 
 # Настройка страницы
 st.set_page_config(page_title="Прогноз цен на недвижимость", layout="wide")
